@@ -12,7 +12,7 @@ export default function NavBar() {
     <Link
       key={link.id}
       href={link.route}
-      className="border border-slate-400 w-[100px] h-[30px] flex justify-center items-center rounded-xl transform-all hover:scale-105 duration-300 hover:backdrop-brightness-95"
+      className="border border-slate-400 md:w-[100px] w-[200px] md:h-[30px] h-[40px] flex justify-center items-center rounded-xl transform-all hover:scale-105 duration-300 hover:backdrop-brightness-95"
     >
       {link.text}
     </Link>

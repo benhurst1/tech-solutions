@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex justify-around h-[150px] bg-slate-800 items-center">
+    <footer className="flex justify-around h-[150px] md:text-lg text-[11px] md:flex-row flex-col bg-slate-800 items-center">
       <div>
         <div>Email: info@techsolutionshub.com</div>
         <div>Phone: 123-456-7890</div>

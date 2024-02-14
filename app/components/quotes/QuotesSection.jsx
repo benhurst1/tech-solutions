@@ -37,7 +37,7 @@ export default function QuotesSection() {
   ];
 
   return (
-    <div className="flex gap-5 justify-center w-full h-[200px] items-center py-10 bg-slate-200 px-[25%]">
+    <div className="flex gap-5 justify-center w-full md:h-[200px] items-center py-10 bg-slate-200 md:px-[25%]">
       <svg
         id="left-button"
         xmlns="http://www.w3.org/2000/svg"

@@ -29,9 +29,9 @@ export default function Features() {
   return (
     <div className="relative bg-slate-100 flex flex-col gap-10 py-10">
       {featuresContent.map((feature) => (
-        <div className="flex flex-col md:flex-row w-2/4 mx-auto justify-center items-center gap-5">
+        <div key={feature.id} className="flex flex-col md:flex-row w-2/4 mx-auto justify-center items-center gap-5">
           <FeaturesText
-            key={feature.id}
+            
             title={feature.title}
             body={feature.body}
           />
